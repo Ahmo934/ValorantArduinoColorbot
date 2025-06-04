@@ -24,7 +24,7 @@
 
 4. **In-Game Settings**:
    - Set your in-game sensitivity to **0.5**.
-   - Change the enemy highlight color to **Purple**.
+   - Change the enemy highlight color according to your hsv **range** in `settings.ini`.
      
 5. **Run the Colorbot**:
    - Execute the main script by running:
