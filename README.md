@@ -20,7 +20,7 @@
      ```
 
 3. **Configure `settings.ini`**:
-   - Adjust the settings in `settings.ini` according to your preferences, if you want to change keybinds you can find the values [here](https://learn.microsoft.com/windows/win32/inputdev/virtual-key-codes).
+   - Adjust the settings in `settings.ini` according to your preferences.
 
 4. **In-Game Settings**:
    - Set your in-game sensitivity to **0.5**.
