@@ -1,0 +1,5 @@
+mss==10.0.0
+numpy==2.2.6
+opencv_python==4.10.0.84
+pyautogui==0.9.54
+pyserial==3.5
