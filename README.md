@@ -1,8 +1,6 @@
 
 
 ## DISCLAIMER
-
-- **Cheat Detection**: This project was not aimed to be undetected and will never aim to do so.
 - **Compatibility**: This software is designed for Makcu boards only.
 - **Responsibility**: This software is intended for educational purposes only. I am not responsible for any account bans, penalties, or any other consequences that may result from using this tool. Use it at your own risk and be aware of the potential implications.
 
