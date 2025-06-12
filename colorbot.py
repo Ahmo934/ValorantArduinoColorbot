@@ -91,11 +91,9 @@ class Colorbot:
         Args:
             action (str): The action to perform, either "move" to move the mouse or "click" to trigger a click.
         """
-        # Capture the screen; mss.grab() returns an image in BGRA format
-        screen = self.capturer.get_screen()
-        # Convert BGRA to BGR before converting to HSV
-        bgr = cv2.cvtColor(screen, cv2.COLOR_BGRA2BGR)
-        hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
+        # Convert the captured screen to HSV color spaceAdd commentMore actions
+        hsv = cv2.cvtColor(self.capturer.get_screen(), cv2.COLOR_BGR2HSV)
+
         
         # Create a binary mask where detected colors are white, and everything else is black
         mask = cv2.inRange(hsv, self.lower_color, self.upper_color)
