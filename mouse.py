@@ -76,7 +76,7 @@ def send_move_command(dx: int, dy: int):
         return
 
     with makcu_lock:
-        command = f"km.move({dx},{dy}, 10, ctrl_x=50, ctrl_y=60\r)"
+        command = f"km.move({dx},{dy}\r)"
         makcu.write(command.encode())
         makcu.flush()
 
